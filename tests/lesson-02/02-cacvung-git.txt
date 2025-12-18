@@ -1,3 +1,24 @@
+a. Tạo 3 file: file1, file2, file3
+Vùng Working Directory: file1, file2, file3
+Vùng Staging Area:
+Vùng Repository: 
+b. Chạy lệnh: git init => Khởi tạo repo local
+Vùng Working Directory: file1, file2, file3
+Vùng Staging Area:
+Vùng Repository: 
+c. Chạy lệnh: git commit -m"init project" => Báo lỗi chưa add file1, file2, file3
+Vùng Working Directory: file1, file2, file3
+Vùng Staging Area:
+Vùng Repository: 
+d. Chạy lệnh: git add file1 => Thêm file1 vào staging
+Vùng Working Directory: file2, file3
+Vùng Staging Area: file1
+Vùng Repository: 
+e. Chạy lệnh: git commit -m"add file1" => Commit file1 tên "add file1" vào Repository
 Vùng Working Directory: file2, file3
 Vùng Staging Area:
-Vùng Repository: file1 "add file1"
+Vùng Repository: file1
+f. Chạy lệnh: git commit -m"add file" => Báo lỗi chưa add file2, file3
+Vùng Working Directory: file2, file3
+Vùng Staging Area:
+Vùng Repository: file1

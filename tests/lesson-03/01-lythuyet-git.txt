@@ -1,0 +1,4 @@
+git commit --amend: để thay đổi tên commit gần nhát
+git commit --amend -m"<message>": để thay đổi tên commit thành tên trong <message>
+git restore --staged <file>: Di chuyển file được gọi từ staging sang working directory
+git reset HEAD~1: Reset 1 commit từ repository sang working directory

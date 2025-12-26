@@ -1,0 +1,31 @@
+a: Chạy lệnh: git init => Khởi tạo repo local
+- Local: 
+- Working directory: 
+- Staging:
+- Repository:
+
+b: Tạo file: file1.txt, file2.txt, oops/file3.txt
+- Local: file1.txt, file2.txt, oops/file3.txt
+- Working directory:
+- Staging:
+- Repository:
+
+c. Thêm file: .gitignore, thêm vào 2 dòng 
+    i. file1.txt => Bỏ qua file1.txt không cần git theo dõi
+    ii. oops/ => dùng để bỏ qua thư mục oops/ có file3.txt trong đó không cần git theo dõi
+- Local: 
+- Working directory: file2.txt
+- Staging:
+- Repository:
+
+d. Chạy lệnh: git add . => Thêm file2.txt vào staging
+- Local: 
+- Working directory: 
+- Staging: file2.txt
+- Repository:
+
+e. Chạy lệnh: git commit -m"init project" => Commit file2.txt tên "init project" vào repository
+- Local: 
+- Working directory: 
+- Staging: 
+- Repository: file2.txt
